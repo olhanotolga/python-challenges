@@ -29,8 +29,13 @@ function valid(pin):
 ## Tests
 
 `valid("1234")` ➞ True
+
 `valid("45135")` ➞ False
+
 `valid("89abc1")` ➞ False
+
 `valid("900876")` ➞ True
+
 `valid(" 4983")` ➞ False
+
 `valid("")` ➞ False
