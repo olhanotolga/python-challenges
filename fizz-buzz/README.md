@@ -28,8 +28,8 @@ function fizz_buzz(factor1, factor2, range):
 
 ## Test cases
 
-`fizz_buzz(3, 5, 16)` outputs the follwing values: `1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz'`
+`fizz_buzz(3, 5, 16)` outputs the following values: `1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz'`
 
-`fizz_buzz(2, 7, 20)` outputs the follwing values: 1, `'Fizz', 3, 'Fizz', 5, 'Fizz', 'Buzz', 'Fizz', 9, 'Fizz', 11, 'Fizz', 13, 'FizzBuzz', 15, 'Fizz', 17, 'Fizz', 19`
+`fizz_buzz(2, 7, 20)` outputs the following values: 1, `'Fizz', 3, 'Fizz', 5, 'Fizz', 'Buzz', 'Fizz', 9, 'Fizz', 11, 'Fizz', 13, 'FizzBuzz', 15, 'Fizz', 17, 'Fizz', 19`
 
 `fizz_buzz(100)` prints an error because the function requires 3 arguments
