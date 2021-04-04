@@ -1,19 +1,17 @@
-"""
-The function takes 3 arguments:
-
-- index of the first graph node (int)
-
-- index of the second graph node (int)
-
-- a node adjacency matrix (nested list).
-
-In the matrix, 1 indicates that a connection is true, and 0 indicates a connection is false.
-
-The function determines whether the given nodes are connected or not and returns a boolean.
-"""
-
-
 def are_nodes_adjacent(node1, node2, matrix):
+    """
+    The function takes 3 arguments:
+
+    - index of the first graph node (int)
+
+    - index of the second graph node (int)
+
+    - a node adjacency matrix (nested list).
+
+    In the matrix, 1 indicates that a connection is true, and 0 indicates a connection is false.
+
+    The function determines whether the given nodes are connected or not and returns a boolean.
+    """
     # first node's connections with other nodes: matrix[node1]
     # first node's connection with the second node: matrix[node1][node2]
     # 0 and 1 are easily converted into boolean values:

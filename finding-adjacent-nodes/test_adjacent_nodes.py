@@ -1,11 +1,8 @@
 def are_nodes_adjacent(node1, node2, matrix):
-    # current_node_connections = matrix[node1]
-    # sought_connection = current_node_connections[node2]
-    # return bool(sought_connection)
     return bool(matrix[node1][node2])
 
 
-def test_answer():
+def test_are_nodes_adjacent():
     matrix1 = [[0, 1, 0, 0], [1, 0, 1, 1], [0, 1, 0, 1], [0, 1, 1, 0]]
     matrix2 = [
         [0, 1, 0, 1, 1],
