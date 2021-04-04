@@ -6,8 +6,7 @@ Given a list of words in the singular form, return a set of those words in the p
 
 ### Notes
 
-- This is an oversimplification of the English language so no edge cases will appear.
-- Only focus on whether or not to add an `s` to the ends of words.
+Although no irregular plural forms were meant to appear in test cases, I included 100 most common irregular nouns which I check against in a helper function (see `pluralize.py`).
 
 ## Pseudocode
 
