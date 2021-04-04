@@ -12,7 +12,7 @@ All dependencies can be installed with `pip install -r requirements.txt`.
 
 ## Documentation
 
-Documentation for the entire project can be easily created by running `pdoc --html --output-dir docs <project-folder/>` — the `pdoc` package is included in the list of dependencies.
+Documentation for the entire project can be easily created by running `pdoc --html --output-dir <project-folder>/docs <project-folder>/`— the `pdoc` package is included in the list of dependencies.
 
 ## Testing
 
