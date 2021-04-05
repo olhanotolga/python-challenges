@@ -1,5 +1,6 @@
-def are_nodes_adjacent(node1, node2, matrix):
-    return bool(matrix[node1][node2])
+__doc__
+
+from adjacent_nodes import are_nodes_adjacent
 
 
 def test_are_nodes_adjacent():

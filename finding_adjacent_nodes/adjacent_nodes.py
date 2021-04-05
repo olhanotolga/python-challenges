@@ -1,3 +1,6 @@
+__doc__
+
+
 def are_nodes_adjacent(node1, node2, matrix):
     """
     The function takes 3 arguments:

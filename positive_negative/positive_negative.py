@@ -1,19 +1,23 @@
+__doc__
+
 import re
-
-"""
-Function neutralize takes two eqal-length input strings. It returns one string of the same length where each character is the result of interaction between the character in string 1 and string 2 at the same index.
-
-- When "+" and "+" interact, they remain "+".
-- When "-" and "-" interact, they remain "-".
-- But when "-" and "+" interact, they become "0".
-
-Arguments: 2 strings containing of exclusively "+" and/or "-" characters.
-
-Output: 1 string containing of exclusively "+", "-", or "0" characters.
-"""
 
 
 def neutralize(str1, str2):
+    """
+    Function neutralize takes two eqal-length input strings. It returns one string of the same length where each character is the result of interaction between the character in string 1 and string 2 at the same index.
+
+    - When "+" and "+" interact, they remain "+".
+
+    - When "-" and "-" interact, they remain "-".
+
+    - But when "-" and "+" interact, they become "0".
+
+    Arguments: 2 strings containing of exclusively "+" and/or "-" characters.
+
+    Output: 1 string containing of exclusively "+", "-", or "0" characters.
+    """
+
     # type check
     if not isinstance(str1, str) or not isinstance(str2, str):
         return "Must be a string"
